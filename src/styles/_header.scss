@@ -1,0 +1,31 @@
+
+.header {
+    width: 100vw;
+    height: 250px;
+
+    display: flex;
+    flex-direction: column;
+
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Images/OriTree.jpg');
+}
+
+.header-content {
+    margin: auto;
+    display: inline-block;
+    color: white;
+
+    h1 {
+        font-size: calc(40px + 2.7vmax);
+        font-weight: normal;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        display: block;
+        margin: 0px;
+    }
+
+    p {
+        font-size: calc(14px + 0.5vmax);
+        text-align: center;
+        display: block;
+    }
+}
