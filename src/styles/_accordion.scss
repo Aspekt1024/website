@@ -1,0 +1,88 @@
+$border-color: rgb(168, 168, 168);
+$indicator-size: 45px;
+
+.accordion-item { 
+
+  margin: 10px;
+  overflow: hidden;
+
+  .content {
+    border: 1px;
+    border-color: $border-color;
+    border-style: solid;
+    border-top-style: none;
+    margin-left: $indicator-size;
+
+    opacity: 1;
+    padding: 10px;
+    max-height: 2500px;
+
+    transition: 0.5s max-height ease, 0.2s opacity ease, 0.3s padding ease;
+  }
+
+  .content-hidden {
+    opacity: 0;
+    padding: 0px;
+    max-height: 0px;
+  }
+
+  p, ol, ul, li {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+
+  ol {
+    margin-top: 5px;
+    li {
+        list-style: decimal;
+    }
+  }
+
+  ul {
+    margin-top: 5px;
+    li {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      list-style-type: disc;
+    }
+  }
+}
+
+.accordion-header {
+  display: block;
+  border: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  line-height: $indicator-size;
+  border-color: $border-color;
+  background-color: rgb(219, 219, 219);
+  user-select: none;
+
+  cursor: pointer;
+
+  p {
+    font-size: calc(18px + 0.2vw);
+    display: inline;
+    margin-left: 10px;
+  }
+
+  .icon {
+      font-size: 21px;
+      width: 30px;
+  }
+}
+
+.accordion-indicator {
+  display: inline-block;
+  width: $indicator-size;
+  text-align: center;
+  color: white;
+  background-color: $dark-gray;
+
+  span {
+    font-size: 22px;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
