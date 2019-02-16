@@ -10,21 +10,21 @@ import Navbar from './Navbar';
 class Main extends Component {
   render() {
     return (
-      <Router>
-        <Fragment>
-          
-          <Navbar />
+      <Fragment>
 
-          <Switch className='body'>
-            <Route exact path='/' component={Home} />
-            <Route path='/projects' component={Projects} />
-            <Route path='/about' component={About} />
-            <Route path='/contact' component={Contact} />
-            <Route component={NotFound} />
-          </Switch>
-
-        </Fragment>   
-      </Router>
+        <Navbar />
+        
+        <Router>
+            <Switch className='body'>
+              <Route exact path='/' component={Home} />
+              <Route path='/projects' component={Projects} />
+              <Route path='/about' component={About} />
+              <Route path='/contact' component={Contact} />
+              <Route component={NotFound} />
+            </Switch>
+        </Router>
+        
+      </Fragment>
     )
   }
 }
