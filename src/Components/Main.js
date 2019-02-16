@@ -4,7 +4,8 @@ import Projects from './Pages/Projects';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import NotFound from './Pages/NotFound';
-import {BrowserRouter as Router, Switch, Route, NavLink} from 'react-router-dom'
+import {HashRouter as Router, Switch, Route} from 'react-router-dom'
+import Navbar from './Navbar';
 
 class Main extends Component {
   render() {
@@ -12,12 +13,7 @@ class Main extends Component {
       <Router>
         <Fragment>
           
-          <div className='navbar'>
-            <NavLink exact={true} className='navbutton' activeClassName='navbutton-active' to='/'>Home</NavLink>
-            <NavLink className='navbutton' activeClassName='navbutton-active' to='/projects'>Projects</NavLink>
-            <NavLink className='navbutton' activeClassName='navbutton-active' to='/about'>About Me</NavLink>
-            <NavLink className='navbutton' activeClassName='navbutton-active' to='/contact'>Contact</NavLink>
-          </div>
+          <Navbar />
 
           <Switch className='body'>
             <Route exact path='/' component={Home} />
