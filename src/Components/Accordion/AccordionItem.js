@@ -23,11 +23,19 @@ class AccordionItem extends Component {
             <FontAwesomeIcon className='icon' icon={this.props.icon} /> {this.props.title}
           </p>
         </div>
-        <div id='test' className={this.props.visible ? 'content' : 'content content-hidden' }>
-          {this.props.children}
+        <div className={this.props.visible ? 'content-container' : 'content-container content-hidden' }>
+          <div className ='content-body'>
+            {this.props.children}
+          </div>
         </div>
       </div>
     )
+  }
+
+  componentDidMount = () => {
+    if (this.props.isOpen) {
+      this.onClick();
+    }
   }
 
   onClick = () => {

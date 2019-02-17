@@ -1,31 +1,63 @@
 
 .header {
-    width: 100vw;
-    height: 250px;
+  width: 100vw;
+  height: calc(150px + 20vh);
 
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Images/OriTree.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Images/OriTree.jpg');
 }
 
 .header-content {
-    margin: auto;
-    display: inline-block;
-    color: white;
+  margin: auto;
+  display: inline-block;
+  color: white;
 
-    h1 {
-        font-size: calc(40px + 2.7vmax);
-        font-weight: normal;
-        font-family: 'Times New Roman', Times, serif;
-        text-align: center;
-        display: block;
-        margin: 0px;
-    }
+  h1 {
+    font-size: calc(40px + 2.7vmax);
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    display: block;
+    margin: 0px;
+  }
 
-    p {
-        font-size: calc(14px + 0.5vmax);
-        text-align: center;
-        display: block;
-    }
+  p {
+    font-size: calc(14px + 0.5vmax);
+    text-align: center;
+    display: block;
+  }
+}
+
+.navbar {
+  width: 100vw;
+  background-color: rgba(6, 12, 20, 0.7);
+  text-align: center;
+}
+  
+.navbutton {
+  color: white;
+  display: inline-block;
+  -webkit-box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0.0) inset;
+  box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0.0) inset;
+  margin: 0px;
+  line-height: calc(30px + 1.5vw);
+  font-weight: 300;
+  font-size: 20px;
+  text-decoration: none;
+  width: calc(68px + 8vw);
+
+  transition: 0.7s color ease;
+
+  &:hover {
+    color: rgb(0, 162, 255);
+  }
+  &:active {
+    box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0.2) inset;
+  }
+}
+
+.navbutton-active {
+  box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0.164) inset;
 }

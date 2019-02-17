@@ -1,13 +1,8 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types'
 import AccordionItem from './AccordionItem';
 
 class Accordion extends Component {
 
-  static propTypes = {
-    children: PropTypes.instanceOf(Object).isRequired,
-  }
-  
   constructor(props) {
     super(props)
 
@@ -32,6 +27,7 @@ class Accordion extends Component {
             visible={!!openSections[child.props.title]}
             title={child.props.title}
             icon={child.props.icon}
+            isOpen={child.props.isOpen}
             onClick={onClick}
           >
             {child.props.children}
@@ -42,7 +38,6 @@ class Accordion extends Component {
   }
 
   onClick = title => {
-
     const isVisible = !!this.state.openSections[title];
 
     this.setState({ openSections: {

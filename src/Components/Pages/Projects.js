@@ -15,35 +15,21 @@ class Projects extends Component {
       <div className='page'>
         <h1>Projects</h1>
         <div className='grid'>
-          <GridItem 
-            title='Test'
-            image={oriTree}
-            caption='test text'
-          />
-
-          <GridItem 
-            title='Test'
-            image={tallImage}
-            caption='test text'
-          />
-
-          <GridItem 
-            title='Test'
-            image={oriEpic}
-            caption='test text'
-          />
-          
-          <GridItem 
-            title='Test'
-            image={oriScared}
-            caption='test text'
-          />
-          
-          <GridItem 
-            title='Test'
-            image={longImage}
-            caption='test text'
-          />
+          <GridItem title='Project 1' image={oriTree} link='#/projects/1'>
+            project 1
+          </GridItem>
+          <GridItem title='Project 2' image={oriEpic}>
+            project 2
+          </GridItem>
+          <GridItem title='Project 3' image={oriScared}>
+            project 3
+          </GridItem>
+          <GridItem title='Project 4' image={longImage}>
+            project 4
+          </GridItem>
+          <GridItem title='Project 5' image={tallImage}>
+            project 5
+          </GridItem>
         </div>
       </div>
     )

@@ -6,7 +6,7 @@ $indicator-size: 45px;
   margin: 10px;
   overflow: hidden;
 
-  .content {
+  .content-container {
     border: 1px;
     border-color: $border-color;
     border-style: solid;
@@ -14,20 +14,21 @@ $indicator-size: 45px;
     margin-left: $indicator-size;
 
     opacity: 1;
-    padding: 10px;
     max-height: 2500px;
 
-    transition: 0.5s max-height ease, 0.2s opacity ease, 0.3s padding ease;
+    transition: 0.5s max-height ease, 0.5s opacity linear;
   }
 
   .content-hidden {
     opacity: 0;
-    padding: 0px;
     max-height: 0px;
   }
 
-  p, ol, ul, li {
-    font-size: 20px;
+  .content-body {
+    padding: 10px;
+  }
+
+  p, ol, ul {
     margin-bottom: 12px;
   }
 

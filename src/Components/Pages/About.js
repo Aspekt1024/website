@@ -20,7 +20,7 @@ class About extends Component {
       <div className='page'>
         <h1>About Me</h1>
         <Accordion>
-          <AccordionItem title='Who Am I?' icon={faMale}>
+          <AccordionItem title='Who Am I?' icon={faMale} isOpen={true}>
             <p>
               <strong>Hey, I'm Dan, a game developer / engineer</strong> based in Melbourne, Australia.
               My focus is in game programming using Unity3D, where I write tools to simplify
