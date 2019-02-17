@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import GridItem from '../Grid/GridItem';
 
-const oriTree = require('../../Images/OriTree.jpg')
-const oriEpic = require('../../Images/840030985_preview_image.png')
-const oriScared = require('../../Images/Ori-and-the-Blind-Forest-6.jpg')
-const longImage = require('../../Images/make this.png')
-const tallImage = require('../../Images/tallImage.png')
+const ctImg = require('../../Images/chaostavernconcept.png')
+const trixieImg = require('../../Images/trixie1.png')
+const clumsyImg = require('../../Images/clumsy.png')
+const ggjImg = require('../../Images/ggjlogo.png')
 
 class Projects extends Component {
 
@@ -15,20 +14,23 @@ class Projects extends Component {
       <div className='page'>
         <h1>Projects</h1>
         <div className='grid'>
-          <GridItem title='Project 1' image={oriTree} link='#/projects/1'>
-            project 1
+          <GridItem title='Chaos Tavern' image={ctImg} link='#/projects/chaostavern'>
+            A fun and frantic co-operative multiplayer game about running a fantasy tavern!
           </GridItem>
-          <GridItem title='Project 2' image={oriEpic}>
-            project 2
+          <GridItem title='Trixie' image={trixieImg} link='#projects/trixie'>
+            A 2D action adventure platformer
           </GridItem>
-          <GridItem title='Project 3' image={oriScared}>
-            project 3
+          <GridItem title='Clumsy Bat' image={clumsyImg} link='#/projects/clumsybat'>
+            A 2D sidescroller arcade game on mobile
           </GridItem>
-          <GridItem title='Project 4' image={longImage}>
-            project 4
+          <GridItem title='Game Jams' image={ggjImg} link='#/projects/gamejams'>
+            Games developed while sleeping under a desk
           </GridItem>
-          <GridItem title='Project 5' image={tallImage}>
-            project 5
+          <GridItem title='Prototypes' image={''} link='#/projects/prototypes'>
+            A technical look into Unity
+          </GridItem>
+          <GridItem title='Other work' image={''} link='#/projects/other'>
+            Other programming-related projects
           </GridItem>
         </div>
       </div>

@@ -24,7 +24,11 @@ class GridItem extends Component {
       >
         <a href={this.props.link}>
           <h2>{this.props.title}</h2>
-          <img className='grid-image' src={this.props.image} alt=''/>
+          {this.props.animatedImage == null || !this.state.isHovered ?
+            <img className='grid-image' src={this.props.image} alt=''/>
+          :
+            <img className='grid-image' src={this.props.animatedImage} alt=''/>
+          }
           {this.props.children}
         </a>
       </div>

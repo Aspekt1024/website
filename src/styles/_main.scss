@@ -1,3 +1,6 @@
+$page-width: 600px;
+$min-page-width: 65vw;
+$max-page-width: 100vw;
 
 * {
   -moz-osx-font-smoothing: grayscale;
@@ -57,7 +60,7 @@ body {
 
   padding: calc(10px + 1.5vmax);
   padding-left: calc(8px + 1.2vw);
-  padding-right: calc(6px + 1.5vw);
+  padding-right: calc(8px + 1.2vw);
 }
 
 h1 {
@@ -77,4 +80,16 @@ p {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.youtube-vid {
+  display: block;
+
+  width: calc(400px + 20vw);
+  height: calc((400px + 20vw) / 1.33);
+  max-width: calc(100vw - 2 * (8px + 1.2vw));
+  max-height: calc((100vw - 2 * (8px + 1.2vw)) / 1.33);
+
+  margin: 10px auto;
+  padding: 0px;
 }

@@ -17,13 +17,11 @@
 
   width: calc(100% - 20px);
   height: calc(100% - 20px);
-  transform: scale(1);
 
   border-width: 1px;
-  border-color: $dark-gray;
+  border-color: rgb(182, 182, 182);
   border-style: solid;
   border-radius: 3px;
-  background-color: rgb(255, 255, 255);
 
   p {
     margin-left: 10px;
@@ -35,15 +33,17 @@
     color: black;
   }
 
-  transition: 0.3s transform ease;
+  transform: scale(1);
+  box-shadow: 0px 0px 0px 0px rgb(0, 132, 255);
+  transition: 0.2s transform ease, 1s box-shadow ease;
 }
 
 .grid-item-hover {
-  transform: scale(0.98);
+  box-shadow: 0px 0px calc(50px + 1vmax) 0.5px rgba(0, 132, 255, 0.2), 0px 0px 0px 1px rgb(0, 132, 255);
 }
 
 .grid-item-down {
-  transform: scale(0.95);
+  transform: scale(0.98);
 }
 
 .grid-image {
@@ -55,9 +55,10 @@
   padding-right: 20px;
   object-fit: cover;
   display: block;
-
+  
   &:before {
     content: '';
+    src: url('../Images/placeholder.png');
     height: 210px;
     padding: 10px;
     display: block;
@@ -65,5 +66,7 @@
     border-style: dashed;
     border-color: rgb(94, 94, 94);
     background-color: rgb(197, 197, 197);
+    background: url('../Images/placeholder.png');
+    background-size: auto 100%;
   }
 }
