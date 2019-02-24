@@ -1,23 +1,23 @@
 import React, { Component } from 'react';
+import {HashRouter as Router, Switch, Route} from 'react-router-dom'
+
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import NotFound from './Pages/NotFound';
-
+import Projects from './Pages/Projects';
 import ProjectClumsy from './Pages/Projects/ProjectClumsy';
 import ProjectTrixie from './Pages/Projects/ProjectTrixie';
 import ProjectChaosTavern from './Pages/Projects/ProjectChaosTavern';
 import ProjectLA95 from './Pages/Projects/ProjectLA95';
 import ProjectMMC from './Pages/Projects/ProjectMMC';
 import Prototypes from './Pages/Projects/Prototypes';
-import Projects from './Pages/Projects';
-
-import {HashRouter as Router, Switch, Route} from 'react-router-dom'
 import ProjectGameJam from './Pages/Projects/ProjectGameJam';
 import ProjectSubmarine from './Pages/Projects/ProjectSubmarine';
 import ProjectPlayerController from './Pages/Projects/ProjectPlayerController';
 import ProjectRTS from './Pages/Projects/ProjectRTS';
 import ProjectOther from './Pages/Projects/ProjectOther';
+import GermanTest from './Pages/GermanTest';
 
 class Main extends Component {
   render() {
@@ -39,6 +39,7 @@ class Main extends Component {
             <Route path='/projects/playercontroller' component={ProjectPlayerController} />
             <Route path='/projects/other' component={ProjectOther} />
             <Route path='/projects' component={Projects} />
+            <Route path='/germantest' component={GermanTest} />
             <Route component={NotFound} />
           </Switch>
       </Router>

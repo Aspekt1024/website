@@ -36,7 +36,7 @@ class About extends Component {
             <p>
             <strong>Many of my best achievements have been a result of programming</strong>. In high school, I made
               calculator programs which helped me remember maths and physics formulas. At university
-              I developed a web-based vocabulary trainer for my German class, which got me 100% on
+              I developed a <a href='#/germantest'>web-based vocabulary trainer</a> for my German class, which got me 100% on
               almost all of my tests. In the workplace I developed, maintained and refactored tools
               used by hundreds of team members nationally, some of which became the national standard
               for our business process. Every time, <strong>the process of developing an elegant solution
