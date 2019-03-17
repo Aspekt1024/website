@@ -3,7 +3,8 @@ import GridItem from '../Grid/GridItem';
 
 const ctImg = require('../../Images/chaostavernconcept.png')
 const trixieImg = require('../../Images/trixie1.png')
-const clumsyImg = require('../../Images/clumsy.png')
+const cbStatic = require('../../Images/cbtitlestatic.jpg')
+const cbAnimated = require('../../Images/cbtitleanimated.gif')
 const ggjImg = require('../../Images/ggjlogo.png')
 
 class Projects extends Component {
@@ -20,7 +21,10 @@ class Projects extends Component {
           <GridItem title='Trixie' image={trixieImg} link='#projects/trixie'>
             A 2D action adventure platformer
           </GridItem>
-          <GridItem title='Clumsy Bat' image={clumsyImg} link='#/projects/clumsybat'>
+          <GridItem title='Clumsy Bat'
+            image={cbStatic} animatedImage={cbAnimated}
+            link='#/projects/clumsybat'
+          >
             A 2D sidescroller arcade game on mobile
           </GridItem>
           <GridItem title='Game Jams' image={ggjImg} link='#/projects/gamejams'>

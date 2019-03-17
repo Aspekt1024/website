@@ -1,0 +1,56 @@
+.project-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    img {
+        width: calc(250 + 20vw);
+        margin-bottom: 30px;
+    }
+}
+
+.project-description {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0px;
+
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+
+.project-blurb {
+    display: inline-block;
+
+    max-width: 100%;
+
+    p {
+        margin: 20px;
+    }
+}
+
+.project-detail {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    line-height: 35px;
+    padding-right: 10px;
+}
+
+.project-detail-title {
+    display: block;
+
+    width: 95px;
+    font-weight: bold;
+
+    
+    margin-right: 5px;
+    padding-left: 5px;
+}
+
+.team-list {
+    p {
+        margin: 0px;
+    }
+}

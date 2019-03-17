@@ -1,4 +1,5 @@
 $dark-gray: rgb(29, 29, 29);
+$light-gray: rgb(182, 182, 182);
 
 @import "main.scss";
 @import "header.scss";
@@ -6,3 +7,4 @@ $dark-gray: rgb(29, 29, 29);
 @import "accordion.scss";
 @import "footer.scss";
 @import "vocabulary.scss";
+@import "project.scss";
