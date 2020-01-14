@@ -46,8 +46,8 @@ class ProjectMMC extends Component {
         
         <h4>Game Jam Scenario</h4>
         <p>
-          Before the day of GGJ2019, the team had never met. This was a challenge I wanted to
-          give myself this year. The dynamic was great, the team consisted of people with 
+          Before the day of GGJ2019, the team had never met, and this was a challenge I wanted to
+          give myself this year. The team dynamic was amazing, and consisted of people with 
           varying skill levels and different skillsets, and in under 48 hours we successfully
           developed a playable game with a core gameplay loop!
         </p>

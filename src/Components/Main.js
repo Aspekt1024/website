@@ -18,6 +18,7 @@ import ProjectPlayerController from './Pages/Projects/ProjectPlayerController';
 import ProjectRTS from './Pages/Projects/ProjectRTS';
 import ProjectOther from './Pages/Projects/ProjectOther';
 import GermanTest from './Pages/GermanTest';
+import ProjectHexapawn from './Pages/Projects/ProjectHexapawn';
 
 class Main extends Component {
   render() {
@@ -35,6 +36,7 @@ class Main extends Component {
             <Route path='/projects/mmc' component={ProjectMMC} />
             <Route path='/projects/prototypes' component={Prototypes} />
             <Route path='/projects/submarine' component={ProjectSubmarine} />
+            <Route path='/projects/hexapawn' component={ProjectHexapawn} />
             <Route path='/projects/rts' component={ProjectRTS} />
             <Route path='/projects/playercontroller' component={ProjectPlayerController} />
             <Route path='/projects/other' component={ProjectOther} />

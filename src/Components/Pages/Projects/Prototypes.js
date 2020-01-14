@@ -3,8 +3,10 @@ import ProjectPageBase from './ProjectPageBase'
 import GridItem from '../../Grid/GridItem'
 
 const subImg = require('../../../Images/submarine.jpg')
+const hexapawnImg = require('../../../Images/hexapawn.png')
 const pcAnimated = require('../../../Images/blink.gif')
 const pcStatic = require('../../../Images/blink-static.jpg')
+
 const rtsImg = ''
 
 class Prototypes extends Component {
@@ -22,6 +24,10 @@ class Prototypes extends Component {
 
           <GridItem title='Water Physics' image={subImg} link='#/projects/submarine'>
             An experiment with mesh manipulation to simulate movement in water
+          </GridItem>
+
+          <GridItem title='Hexapawn' image={hexapawnImg} link='#/projects/hexapawn'>
+            A simple game demonstrating machine learning
           </GridItem>
 
           <GridItem title='Real Time Strategy Basics' image={rtsImg} link='#/projects/rts'>

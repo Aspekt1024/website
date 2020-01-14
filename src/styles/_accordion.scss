@@ -47,6 +47,13 @@ $indicator-size: 45px;
       list-style-type: disc;
     }
   }
+
+  img {
+    height: 300px;
+    width: auto;
+    margin: 20px;
+    border: 1px solid black;
+  }
 }
 
 .accordion-header {

@@ -5,6 +5,9 @@ import Accordion from '../Accordion/Accordion';
 //import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSnowman, faMale, faGamepad, faHeart, faCogs, faCoffee, } from '@fortawesome/free-solid-svg-icons'
 
+const meImg = require('../../Images/me1.jpg')
+const guitarImg = require('../../Images/guitar3dmodel.png')
+
 class About extends Component {
 
   constructor(props) {
@@ -21,72 +24,80 @@ class About extends Component {
         <h1>About Me</h1>
         <Accordion>
           <AccordionItem title='Who Am I?' icon={faMale} isOpen={true}>
-            <p>
-              <strong>Hey, I'm Dan, a game developer / engineer</strong> based in Melbourne, Australia.
-              My focus is in game programming using Unity3D, where I write tools to simplify
-              the game creation process, such as level editors, node-based editors, and custom
-              inspectors, and develop game-mechanics including AI and level interaction.
-            </p>
-            <p>
-            <strong>Video games and programming have been a pivotal part of who I am</strong>, and Game development
-              combines all of the things I enjoy the most: maths, problem solving, creativity, language
-              and music. I love writing code, and I believe that what makes a great programmer is
-              someone who has a passion for the code they create and the way it's presented.
-            </p>
-            <p>
-            <strong>Many of my best achievements have been a result of programming</strong>. In high school, I made
-              calculator programs which helped me remember maths and physics formulas. At university
-              I developed a <a href='#/germantest'>web-based vocabulary trainer</a> for my German class, which got me 100% on
-              almost all of my tests. In the workplace I developed, maintained and refactored tools
-              used by hundreds of team members nationally, some of which became the national standard
-              for our business process. Every time, <strong>the process of developing an elegant solution
-              through programming has been what I enjoy the most</strong>.
-            </p>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <p>
+                      <strong>Hey, I'm Dan, a game developer / engineer</strong> from Melbourne, Australia.
+                      My focus is in game programming using Unity3D, where I write tools and systems to simplify
+                      the game creation process. This includes level editors, node-based graph editors, and custom
+                      inspectors, as well as game-mechanics including AI systems and level interaction.
+                    </p>
+                    <p>
+                      <strong>Video games and programming have been a pivotal part of who I am</strong>, and Game development
+                      combines all of the things I enjoy the most: maths, problem solving, creativity, language
+                      and music. I love writing code, and I believe that what makes a great programmer is
+                      someone who has a passion for the code they create and the way it's presented.
+                    </p>
+                    <p>
+                    <strong>Many of my best achievements have been a result of programming</strong>. In high school, I made
+                      calculator programs which helped me remember maths and physics formulas. At university
+                      I developed a web-based vocabulary trainer for my German class, which I used for practice to achieve 100% on
+                      almost all of my tests. In the workplace I developed, maintained and refactored tools
+                      used by hundreds of team members nationally, some of which became the national standard
+                      for our business process. Every time, <strong>the process of developing an elegant solution
+                      through programming has been what I enjoy the most</strong>.
+                    </p>
+                  </td>
+                  {window.innerWidth > 800 ? 
+                    <td>
+                      <img src={meImg} alt='' />
+                    </td>
+                  :
+                    void 0
+                  }
+                </tr>
+              </tbody>
+            </table>
           </AccordionItem>
           <AccordionItem title='Why I Love Game Development' icon={faHeart}>
             <p>
-              Of all the things to do in the world, why would one choose game development?
-              While there’s no one simple answer, there are three main things I can think 
-              of that make game development so exciting:
+              Of all the things to do in the world, why game development? While there’s no one simple
+              answer, there are three main things that make game development so exciting:
             </p>
             <ol type='1'>
               <li>
-                Games aren't just something we can experience; they're <strong>something we can 
-                experience the universe through</strong>. We live in a world where there’s so much 
-                to experience and learn, but getting hands on experience isn’t always an
-                option – especially when some of these things are tricky to get an initial
-                grasp of. Take for example games like Kerbal Space Program and Odyssey – The 
-                Next Generation Science Game. These games offer an interactive way to 
-                experience and gain an intuition about how specific aspects of our physical
-                universe fit together.
+                <strong>Games are something we can experience the universe through</strong>.
+                There’s so much to explore and learn, and getting hands on experience isn’t always an
+                option. Games offer an interactive way to experience and gain an intuition
+                about how aspects of our universe fit together, as well as offer a medium
+                to explore situations and emotions in a unique way.
               </li>
               <li>
-                Technology is exciting, and <strong>the game industry pushes technology even further</strong>.
-                Something now becoming more and more mainstream is Virtual and Augmented Reality.
-                This goes further than just hardware, though. With a world full of collaborators
+                Technology is exciting, and <strong>the game industry pushes technology in new and
+                creative ways</strong>. With a world full of collaborators
                 working on open source or affordable software, tools and assets, there’s never
                 been a better time to bring stories to life, share ideas and concepts, or tweak
-                the rules of reality than through gaming.
+                the rules of reality than through games.
               </li>
               <li>
               <strong>Game development combines all the things I love most</strong>: maths, creativity,
                 problem-solving, language and music. I believe there’s no clear distinction between
-                these fields, and gaming allows you to explore all of these things as a larger
+                these fields, and games allow us to explore all of these things as a larger
                 construct. The process of building a game involves piecing together a complex puzzle,
-                with the end result being a piece of interactive artwork to be experienced by others.
+                resulting in a piece of interactive artwork we get to explore.
               </li>
             </ol>
           </AccordionItem>
           <AccordionItem title='My Background' icon={faCogs}>
             <p>
               I graduated from Melbourne University with an Electrical Engineering and Arts degree in
-              2011, and currently work at Australia's largest Telecommunications company. Since starting
-              in 2012, I've worked across five different teams (three in the first 18 months as part of
-              their graduate program). What quickly became clear was each team had a huge need for programmers.
-              Many of the systems used in the workplace had been around for decades, while the technologies
-              being deployed were steadily evolving. There were a lot of manual processes, duplication of
-              data and programs that weren't ready to support some of these new technologies; there were
-              gaps that needed to be filled with code, and this is where my programming days really began.
+              2011, and started working at Australia's largest Telecommunications company in 2012. 
+              What quickly became clear was each team had a huge need for programmers and people who
+              could engineer and architect systems and pipelines. There were a lot of manual processes
+              that had been around for decades, and programs that weren't ready to support new technologies
+              being introduced; this is where my programming days really began.
             </p>
             <p>
               The first tool I wrote in the workplace used an adorable program called AutoIT. It automated
@@ -95,32 +106,34 @@ class About extends Component {
               I haven't used AutoIT since, but it has a special place in my heart.
             </p>
             <p>
-              Programming has since been my chosen method of getting things done. I could give many examples,
-              but I'll mention just one. I was involved with the rollout of a new technology, and was able
-              to develop a tool which automated the configuration process within our national team. This task
-              initially took multiple days for a larger topology, and this tool was able to complete it in
-              minutes. After pitching this idea and demonstrating a proof-of-concept to the management team,
-              I was given the funding to complete its development. Soon after, it was deployed as the national
-              standard for the design team.
+              Programming has since been my chosen method of getting things done. For example, I was involved with
+              the rollout of a new technology, and was able to develop a tool which automated the configuration
+              process within our national team. This task initially took multiple days for a larger topology,
+              and this tool was able to complete it in minutes. After pitching this idea and demonstrating a
+              proof-of-concept to the management team, I was given the funding to complete its development.
+              Soon after, it was deployed as the national standard for the design team.
             </p>
             <p>
-              During the five years at this company, I've also been involved with:
+              During the eight years at this company, I've also been involved with:
               <ul>
                 <li>
-                  Documentation of processes and training for both the tools I'd developed, and for new
+                  Process and training documentation for tools I developed, and for new
                   technologies being introduced to our workforce
                 </li>
                 <li>
-                  Delivery of training to the national workforce
+                  Delivery of training to the national and overseas workforce
                 </li>
                 <li>
-                  Co-Lead Technical Support for our extended workforce
+                  Co-Lead Technical Support for our overseas workforce
                 </li>
                 <li>
                   Lead representative for the rollout of a key application and database used by our team
                 </li>
                 <li>
                   Maintaining and refactoring of existing tools used by the team
+                </li>
+                <li>
+                  Developing and integrating CICD pipelines for various applications
                 </li>
               </ul>
             </p>
@@ -139,19 +152,20 @@ class About extends Component {
             </p>
             <ul>
               <li>Playing music</li>
-              <li>Silks</li>
+              <li>Training in aerials</li>
               <li>Learning German</li>
               <li>Trying out a new video game</li>
             </ul>
             <p>
               I've also dabbled in 3D modelling for fun (the guitar below is something I modeled in Blender 3D), and I have to say it's changed the way I look at any animated film, forever.
             </p>
+            <img src={guitarImg} alt='Took 12 hours O_O' />
           </AccordionItem>
           <AccordionItem title='All-time Favourite Games' icon={faGamepad}>
             <p>A list subject to change based on factors outside of my control:</p>
             <ul>
               <li>The Legend of Zelda: Ocarina of Time</li>
-              <li>The Last of Us</li>
+              <li>Baldur's Gate</li>
               <li>Ori and the Blind Forest</li>
               <li>Final Fantasy VII</li>
               <li>Dark Souls</li>

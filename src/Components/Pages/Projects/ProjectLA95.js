@@ -25,11 +25,10 @@ class ProjectLA95 extends Component {
       <ProjectPageBase title='@LonelyAstronaut95'>
         <ProjectInfo
           year='2018'
-          link='http://www.danscode.net/LonelyAstronaut/'
-          linkText='WebGL'
+          github='/Aspekt1024/GGJ2018'
           downloadLink='https://ggj.s3.amazonaws.com/games/2018/01/217465/src/LonleyAstronaut95.zip'
           downloadText='LonleyAstronaut95.zip (Source)'
-          website='https://globalgamejam.org/2019/games/meow-meow-crash'
+          website='https://globalgamejam.org/2018/games/lonelyastronaut95'
           websiteText='globalgamejam.org'
           team={this.state.team}
           >

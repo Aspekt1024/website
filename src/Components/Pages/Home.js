@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import GridItem from '../Grid/GridItem';
 
 const placeholder = require('../../Images/placeholder.png')
+const ccImg = require('../../Images/meCharCreate.jpg')
 
 class Home extends Component {
   render() {
@@ -12,7 +13,7 @@ class Home extends Component {
           <GridItem title='Projects' image={placeholder} link='#/projects'>
             <p>Games and projects Ive worked on</p>
           </GridItem>
-          <GridItem title='About Me' image={placeholder} link='#/about'>
+          <GridItem title='About Me' image={ccImg} link='#/about'>
             <p>A little bit about who I am</p>
           </GridItem>
           <GridItem title='Contact' image={placeholder} link='#/contact'>

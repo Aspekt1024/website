@@ -24,8 +24,8 @@ class ProjectClumsy extends Component {
         <ProjectInfo
           year='2016'
           github='/Aspekt1024/ClumsyBat'
-          link=''
-          linkText='TBA'
+          link='https://play.google.com/store/apps/details?id=com.BraveLlama.ClumsyBat'
+          linkText='Google Play'
           team={this.state.team}
           >
           <img src={splashImg} alt='' />
@@ -33,14 +33,17 @@ class ProjectClumsy extends Component {
 
         <h3>About</h3>
         <p>
-          Play as the cutest and clumsiest Bat, tasked with saving the cave-folk from the rampant
-          corruption that threatens your home. In this 2D sidescroller adventure, players brave the perilous
-          caves full of spikes, vision impairing mushrooms and spiders, and collect the ever-rare
-          essence from moths scattered throughout the cave.
+          Clumsy bat is a cute and playful 2D side-scrolling avoidance game. In concept, Clumsy Bat is
+          a spin-off of Flappy Bird, with added abilities, obstacles, and bosses. In this 2D sidescroller
+          adventure, players brave the perilous caves full of spikes, vision impairing mushrooms and creepy
+          spiders, and collect arcane essences from moths scattered throughout the cave. Find and solve
+          puzzles to unlock new abilities you'll need to escape safely!
         </p>
         <p>
           Clumsy Bat is a side-scrolling avoidance game for mobile, with simple touch input controls.
           This was the first game I made using Unity3D, providing a solid foundation for some key game systems.
+          It was developed between several projects which gave an excellent insight into the requirements of
+          structuring long-term projects, how to maintain old code, and how to keep code maintainable.
         </p>
 
         <h3>Key Programming Features</h3>
