@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import ProjectPageBase from './ProjectPageBase';
 import ProjectInfo from '../../ProjectComponents/ProjectInfo';
 
-const splashImg = require('../../../Images/clumsy.png')
-const cbNodeImage = require('../../../Images/cbNodeEditor.png')
+const splashImg = require('../../../Images/clumsyBat/clumsy.png')
+const cbNodeImage = require('../../../Images/clumsyBat/cbNodeEditor.png')
 
 class ProjectClumsy extends Component {
 

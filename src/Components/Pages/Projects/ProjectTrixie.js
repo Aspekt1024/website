@@ -4,18 +4,18 @@ import ProjectInfo from '../../ProjectComponents/ProjectInfo';
 
 import ImgAnim from '../../ProjectComponents/ImgAnim';
 
-const aiImg = require('../../../Images/trixieai.png')
-const trixieImg = require('../../../Images/trixie1.png')
+const aiImg = require('../../../Images/trixie/trixieai.png')
+const trixieImg = require('../../../Images/trixie/trixie1.png')
 
-const pcStatic = require('../../../Images/playercontroller2d.jpg')
-const pcAnimated = require('../../../Images/playercontroller2d.gif')
-const trixieStatic = require('../../../Images/trixie.jpg')
-const trixieAnimated = require('../../../Images/trixie.gif')
-const layerStatic = require('../../../Images/trixieLayers.jpg')
-const layerAnimated = require('../../../Images/trixieLayers.gif')
-const parallaxStatic = require('../../../Images/trixieParallax.jpg')
-const parallaxAnimated = require('../../../Images/trixieParallax.gif')
-const aiAnimated = require('../../../Images/trixieAi.gif')
+const pcStatic = require('../../../Images/prototypes/playercontroller2d.jpg')
+const pcAnimated = require('../../../Images/prototypes/playercontroller2d.gif')
+const trixieStatic = require('../../../Images/trixie/trixie.jpg')
+const trixieAnimated = require('../../../Images/trixie/trixie.gif')
+const layerStatic = require('../../../Images/trixie/trixieLayers.jpg')
+const layerAnimated = require('../../../Images/trixie/trixieLayers.gif')
+const parallaxStatic = require('../../../Images/trixie/trixieParallax.jpg')
+const parallaxAnimated = require('../../../Images/trixie/trixieParallax.gif')
+const aiAnimated = require('../../../Images/trixie/trixieAi.gif')
 
 class ProjectTrixie extends Component {
 

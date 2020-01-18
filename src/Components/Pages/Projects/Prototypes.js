@@ -2,10 +2,10 @@ import React, { Component } from 'react'
 import ProjectPageBase from './ProjectPageBase'
 import GridItem from '../../Grid/GridItem'
 
-const subImg = require('../../../Images/submarine.jpg')
-const hexapawnImg = require('../../../Images/hexapawn.png')
-const pcAnimated = require('../../../Images/blink.gif')
-const pcStatic = require('../../../Images/blink-static.jpg')
+const subImg = require('../../../Images/prototypes/submarine.jpg')
+const hexapawnImg = require('../../../Images/prototypes/hexapawn.png')
+const pcAnimated = require('../../../Images/prototypes/blink.gif')
+const pcStatic = require('../../../Images/prototypes/blink-static.jpg')
 
 const rtsImg = ''
 
@@ -20,7 +20,7 @@ class Prototypes extends Component {
             link='#/projects/playercontroller'
           >
             2D player controller implementation in Unity3D
-          </GridItem>
+          </GridItem> 
 
           <GridItem title='Water Physics' image={subImg} link='#/projects/submarine'>
             An experiment with mesh manipulation to simulate movement in water

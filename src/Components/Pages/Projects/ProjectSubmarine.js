@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import ProjectPageBase from './ProjectPageBase'
 import ProjectInfo from '../../ProjectComponents/ProjectInfo';
 
-const splashImg = require('../../../Images/submarine.jpg')
+const splashImg = require('../../../Images/prototypes/submarine.jpg')
 
 class ProjectSubmarine extends Component {
 

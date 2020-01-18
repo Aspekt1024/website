@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import ProjectPageBase from './ProjectPageBase'
 import ProjectInfo from '../../ProjectComponents/ProjectInfo';
 
-const splashImg = require('../../../Images/hexapawn.png')
+const splashImg = require('../../../Images/prototypes/hexapawn.png')
 
 class ProjectHexapawn extends Component {
 

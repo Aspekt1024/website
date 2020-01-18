@@ -53,6 +53,9 @@ class ImgAnim extends Component {
     } else if (this.props.smallImage) {
       name += ' image-animated-small'
     }
+    if (this.props.autoHeight) {
+      name += ' img-auto-height'
+    }
     return name
   }
 }

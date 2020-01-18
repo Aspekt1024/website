@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import GridItem from '../Grid/GridItem';
 
-const placeholder = require('../../Images/placeholder.png')
-const ccImg = require('../../Images/meCharCreate.jpg')
+const placeholder = require('../../Images/other/placeholder.png')
+const ccImg = require('../../Images/other/meCharCreate.jpg')
 
 class Home extends Component {
   render() {

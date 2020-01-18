@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import GridItem from '../Grid/GridItem';
 
-const ctImg = require('../../Images/chaostaverntitle.png')
-const trixieImg = require('../../Images/trixie1.png')
-const trixieImgAnimated = require('../../Images/trixie.gif')
-const cbStatic = require('../../Images/cbtitlestatic.jpg')
-const cbAnimated = require('../../Images/cbtitleanimated.gif')
-const ggjImg = require('../../Images/ggjlogo.png')
-const d20Img = require('../../Images/d20rollNat20.jpg')
-const d20ImgAnimated = require('../../Images/d20rollNat20.gif')
+const ctImg = require('../../Images/chaosTavern/chaostaverntitle.jpg')
+const trixieImg = require('../../Images/trixie/trixie1.png')
+const trixieImgAnimated = require('../../Images/trixie/trixie.gif')
+const cbStatic = require('../../Images/clumsyBat/cbtitlestatic.jpg')
+const cbAnimated = require('../../Images/clumsyBat/cbtitleanimated.gif')
+const ggjImg = require('../../Images/gamejam/ggjlogo.png')
+const d20Img = require('../../Images/prototypes/d20rollNat20.jpg')
+const d20ImgAnimated = require('../../Images/prototypes/d20rollNat20.gif')
 
 class Projects extends Component {
 

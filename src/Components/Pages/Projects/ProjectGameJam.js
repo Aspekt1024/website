@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import ProjectPageBase from './ProjectPageBase'
 import GridItem from '../../Grid/GridItem'
 
-const mmcImg = require('../../../Images/mmc.png')
-const laImg = require('../../../Images/la.png')
+const mmcImg = require('../../../Images/gamejam/mmc.png')
+const laImg = require('../../../Images/gamejam/la.png')
 
 class ProjectGameJam extends Component {
   render() {

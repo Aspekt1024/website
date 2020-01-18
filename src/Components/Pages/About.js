@@ -5,8 +5,8 @@ import Accordion from '../Accordion/Accordion';
 //import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSnowman, faMale, faGamepad, faHeart, faCogs, faCoffee, } from '@fortawesome/free-solid-svg-icons'
 
-const meImg = require('../../Images/me1.jpg')
-const guitarImg = require('../../Images/guitar3dmodel.png')
+const meImg = require('../../Images/other/me1.jpg')
+const guitarImg = require('../../Images/other/guitar3dmodel.png')
 
 class About extends Component {
 
@@ -98,12 +98,6 @@ class About extends Component {
               could engineer and architect systems and pipelines. There were a lot of manual processes
               that had been around for decades, and programs that weren't ready to support new technologies
               being introduced; this is where my programming days really began.
-            </p>
-            <p>
-              The first tool I wrote in the workplace used an adorable program called AutoIT. It automated
-              the process of gathering data from multiple webpages, data sources and a spreadsheet to produce
-              a link budget for radio systems. It took an hour-long process and turned it into a 5 minute task.
-              I haven't used AutoIT since, but it has a special place in my heart.
             </p>
             <p>
               Programming has since been my chosen method of getting things done. For example, I was involved with

@@ -2,10 +2,10 @@ import React, { Component } from 'react'
 import ProjectPageBase from './ProjectPageBase'
 import ImgAnim from '../../ProjectComponents/ImgAnim'
 
-const pcStatic = require('../../../Images/playercontroller2d.jpg')
-const pcAnimated = require('../../../Images/playercontroller2d.gif')
-const waterStatic = require('../../../Images/water.jpg')
-const waterAnimated = require('../../../Images/water.gif')
+const pcStatic = require('../../../Images/prototypes/playercontroller2d.jpg')
+const pcAnimated = require('../../../Images/prototypes/playercontroller2d.gif')
+const waterStatic = require('../../../Images/prototypes/water.jpg')
+const waterAnimated = require('../../../Images/prototypes/water.gif')
 
 class ProjectPlayerController extends Component {
   render() {

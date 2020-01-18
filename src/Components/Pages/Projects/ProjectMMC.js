@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ProjectPageBase from './ProjectPageBase';
 import ProjectInfo from '../../ProjectComponents/ProjectInfo';
 
-const splashImg = require('../../../Images/mmctrashed.png')
+const splashImg = require('../../../Images/gamejam/mmctrashed.png')
 
 class ProjectMMC extends Component {
 

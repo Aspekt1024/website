@@ -58,7 +58,7 @@
   
   &:before {
     content: '';
-    src: url('../Images/placeholder.png');
+    src: url('../Images/other/placeholder.png');
     height: 210px;
     padding: 10px;
     display: block;
@@ -66,7 +66,7 @@
     border-style: dashed;
     border-color: rgb(94, 94, 94);
     background-color: rgb(197, 197, 197);
-    background: url('../Images/placeholder.png');
+    background: url('../Images/other/placeholder.png');
     background-size: auto 100%;
   }
 }
