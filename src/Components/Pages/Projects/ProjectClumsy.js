@@ -41,7 +41,7 @@ class ProjectClumsy extends Component {
         </p>
         <p>
           Clumsy Bat is a side-scrolling avoidance game for mobile, with simple touch input controls.
-          This was the first game I made using Unity3D, providing a solid foundation for some key game systems.
+          This was the first game I made using Unity, providing a solid foundation for some key game systems.
           It was developed between several projects which gave an excellent insight into the requirements of
           structuring long-term projects, how to maintain old code, and how to keep code maintainable.
         </p>

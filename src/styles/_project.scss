@@ -63,7 +63,6 @@
     max-width: 90%;
     margin: auto;
     margin-bottom: 10px;
-    cursor: pointer;
 
     img {
         height: 100%;
@@ -124,3 +123,7 @@
 .img-auto-height {
     height: auto;
   }
+
+.pointer {
+    cursor: pointer;
+}

@@ -13,13 +13,26 @@
   position: absolute;
   bottom: 0px;
 
-  p {
-      display: inline-block;
-      margin-top: 30px;
-      vertical-align: middle;
-  }
 }
 
 .footer-content {
-    
+  display: flex;
+  flex-direction: row;
+
+  margin: auto;
+  min-width: 65vw;
+  max-width: 100vw;
+  width: 600px;
+  background-color: rgb(22, 22, 22);
+
+  padding: 15px;
+}
+
+.footer-table {
+  text-align: right;
+  margin-left: auto;
+
+  td {
+    padding-left: 6px;
+  }
 }

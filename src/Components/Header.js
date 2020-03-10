@@ -10,7 +10,7 @@ class Header extends Component {
               Dan Szabo
             </h1>
             <p>
-              Game Developer / Engineer
+              Game Programmer / Engineer
             </p>
           </div>
           <Navbar />

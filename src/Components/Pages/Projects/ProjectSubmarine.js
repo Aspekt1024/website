@@ -31,7 +31,7 @@ class ProjectSubmarine extends Component {
         
         <h4>About</h4>
         <p>
-          A two-week experiment in water effects including waves, buoyancy and splash effects using Unity3D,
+          A two-week experiment in water effects including waves, buoyancy and splash effects using Unity,
           with the objective of creating an intro and outro video for a YouTube Gaming channel.
         </p>
 

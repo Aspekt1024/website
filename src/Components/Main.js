@@ -15,7 +15,7 @@ import Prototypes from './Pages/Projects/Prototypes';
 import ProjectGameJam from './Pages/Projects/ProjectGameJam';
 import ProjectSubmarine from './Pages/Projects/ProjectSubmarine';
 import ProjectPlayerController from './Pages/Projects/ProjectPlayerController';
-import ProjectRTS from './Pages/Projects/ProjectRTS';
+import ProjectGOAP from './Pages/Projects/ProjectGOAP';
 import ProjectOther from './Pages/Projects/ProjectOther';
 import GermanTest from './Pages/GermanTest';
 import ProjectHexapawn from './Pages/Projects/ProjectHexapawn';
@@ -37,7 +37,7 @@ class Main extends Component {
             <Route path='/projects/prototypes' component={Prototypes} />
             <Route path='/projects/submarine' component={ProjectSubmarine} />
             <Route path='/projects/hexapawn' component={ProjectHexapawn} />
-            <Route path='/projects/rts' component={ProjectRTS} />
+            <Route path='/projects/goap' component={ProjectGOAP} />
             <Route path='/projects/playercontroller' component={ProjectPlayerController} />
             <Route path='/projects/other' component={ProjectOther} />
             <Route path='/projects' component={Projects} />

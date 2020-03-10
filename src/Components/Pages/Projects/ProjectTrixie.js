@@ -43,7 +43,7 @@ class ProjectTrixie extends Component {
 
         <h3>About</h3>
         <p>
-          Trixie is a 2D adventure platformer developed in Unity3D.
+          Trixie is a 2D adventure platformer developed in Unity.
           This ongoing project started in 2018 as a two-person team (one artist
           and one programmer).
         </p>

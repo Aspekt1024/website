@@ -6,9 +6,18 @@
     padding: 20px;
     border: 1px solid black;
     border-radius: 6px;
+    background-color: white;
 
     td {
         line-height: 1.8em;
         padding-left: 20px;
+    }
+
+    a {
+      color: blue;
+      transition: 0.5s color ease;
+      &:hover{
+        color: $link-blue;
+      }
     }
 }

@@ -23,16 +23,20 @@ class Accordion extends Component {
     return (
       <div className='accordion'>
         {children.map(child => (
-          <AccordionItem
-            visible={!!openSections[child.props.title]}
-            title={child.props.title}
-            icon={child.props.icon}
-            isOpen={child.props.isOpen}
-            onClick={onClick}
-          >
-            {child.props.children}
-          </AccordionItem>
-        ))}
+          child.props.hidden ?
+            void 0
+          :
+            (
+              <AccordionItem
+                visible={!!openSections[child.props.title]}
+                title={child.props.title}
+                icon={child.props.icon}
+                isOpen={child.props.isOpen}
+                onClick={onClick}
+              >
+                {child.props.children}
+              </AccordionItem>
+            )))}
       </div>
     )
   }

@@ -56,6 +56,9 @@ class ImgAnim extends Component {
     if (this.props.autoHeight) {
       name += ' img-auto-height'
     }
+    if (this.props.animated != null) {
+      name += ' pointer'
+    }
     return name
   }
 }

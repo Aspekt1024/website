@@ -70,3 +70,27 @@
     background-size: auto 100%;
   }
 }
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(calc(200px + 3vw), 1fr));
+  
+  justify-items: center;
+
+  a {
+    color: black;
+
+    &:hover {
+      color: $link-blue;
+    }
+  }
+}
+
+.contact-grid-icon {
+  display: block;
+  font-size: 100px;
+}
+
+.contact-grid-title {
+  font-weight: bold;
+}
