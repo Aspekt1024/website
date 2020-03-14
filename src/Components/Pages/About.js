@@ -28,7 +28,7 @@ class About extends Component {
                 <tr>
                   <td>
                     <p>
-                      Hey, I'm Dan, a game programmer and engineer from Melbourne, Australia.
+                      Hey, I'm Dan, a game programmer and engineer based in Melbourne, Australia.
                       I develop games primarily in Unity, and also work as an Automation Engineer.
                     </p>
                     <p>
@@ -36,6 +36,11 @@ class About extends Component {
                       combines all of the things I enjoy the most: maths, problem solving, creativity, language
                       and music. The process of bringing all of these together in an elegant solution though programming
                       is what I love doing.
+                    </p>
+                    <p>
+                      I graduated at the University of Melbourne in 2012 with a Bachelor of Engineering and Arts.
+                      Since then, I have worked various roles at Telstra, primarily as a network engineer
+                      and programmer. I started programming games in 2016 with a focus on Unity development.
                     </p>
                     <p>
                       <strong>Skillset summary:</strong>
@@ -229,7 +234,7 @@ class About extends Component {
               LinkedIn: <a href='https://www.linkedin.com/in/dan-szabo-02ab952b/'>Dan Szabo</a>
             </p>
             <p>
-              Email: <a href='mailto:aspektgames@gmail.com'>aspektgames@gmail.com</a>
+              Email: <a href='mailto:d.szabo87@gmail.com'>d.szabo87@gmail.com</a>
             </p>
           </AccordionItem>
         </Accordion>

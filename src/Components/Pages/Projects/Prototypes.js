@@ -6,8 +6,7 @@ const subImg = require('../../../Images/prototypes/submarine.jpg')
 const hexapawnImg = require('../../../Images/prototypes/hexapawn.png')
 const pcAnimated = require('../../../Images/prototypes/blink.gif')
 const pcStatic = require('../../../Images/prototypes/blink-static.jpg')
-
-const goapImg = ''
+const goapImg = require('../../../Images/prototypes/GOAP/splash.jpg')
 
 class Prototypes extends Component {
   render() {
@@ -22,16 +21,16 @@ class Prototypes extends Component {
             2D player controller implementation in Unity
           </GridItem> 
 
+          <GridItem title='GOAP AI System' image={goapImg} link='#/projects/goap'>
+            AI with an extendable state machine that can be modified at runtime
+          </GridItem>
+
           <GridItem title='Water Physics' image={subImg} link='#/projects/submarine'>
             An experiment with mesh manipulation to simulate movement in water
           </GridItem>
 
           <GridItem title='Hexapawn' image={hexapawnImg} link='#/projects/hexapawn'>
             A simple game demonstrating machine learning
-          </GridItem>
-
-          <GridItem title='GOAP AI System' image={goapImg} link='#/projects/goap'>
-            AI with an extendable state machine that can be modified at runtime
           </GridItem>
 
         </div>

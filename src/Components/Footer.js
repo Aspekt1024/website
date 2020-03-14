@@ -21,7 +21,7 @@ class Footer extends Component {
               </tr>
               <tr>
                 <td>Email:</td>
-                <td><a href='mailto:aspektgames@gmail.com'>aspektgames@gmail.com</a></td>
+                <td><a href='mailto:d.szabo87@gmail.com'>d.szabo87@gmail.com</a></td>
               </tr>
             </tbody>
           </table>

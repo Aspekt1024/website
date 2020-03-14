@@ -14,7 +14,7 @@ class Contact extends Component {
           {this.contactItem('https://twitter.com/aspekt1024', 'Twitter', faTwitter, '@aspekt1024')}
           {this.contactItem('https://github.com/Aspekt1024', 'Github', faGithub, '/Aspekt1024')}
           {this.contactItem('https://www.linkedin.com/in/dan-szabo-02ab952b/', 'LinkedIn', faLinkedin, 'dan-szabo-02ab952b')}
-          {this.contactItem('mailto:aspektgames@gmail.com', 'Email', faEnvelopeOpenText, 'aspektgames@gmail.com')}
+          {this.contactItem('mailto:d.szabo87@gmail.com', 'Email', faEnvelopeOpenText, 'd.szabo87@gmail.com')}
         </div>
       </div>
     )

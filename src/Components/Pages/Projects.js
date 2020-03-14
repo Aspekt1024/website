@@ -36,9 +36,9 @@ class Projects extends Component {
           <GridItem title='Prototypes' image={d20Img} animatedImage={d20ImgAnimated} link='#/projects/prototypes'>
             Some prototypes and tools in Unity that were really fun to make
           </GridItem>
-          <GridItem title='Other work' image={''} link='#/projects/other'>
+          {/* <GridItem title='Other work' image={''} link='#/projects/other'>
             Other programming-related projects
-          </GridItem>
+          </GridItem> */}
         </div>
       </div>
     )

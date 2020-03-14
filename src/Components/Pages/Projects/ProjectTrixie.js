@@ -11,8 +11,6 @@ const pcStatic = require('../../../Images/prototypes/playercontroller2d.jpg')
 const pcAnimated = require('../../../Images/prototypes/playercontroller2d.gif')
 const trixieStatic = require('../../../Images/trixie/trixie.jpg')
 const trixieAnimated = require('../../../Images/trixie/trixie.gif')
-const layerStatic = require('../../../Images/trixie/trixieLayers.jpg')
-const layerAnimated = require('../../../Images/trixie/trixieLayers.gif')
 const parallaxStatic = require('../../../Images/trixie/trixieParallax.jpg')
 const parallaxAnimated = require('../../../Images/trixie/trixieParallax.gif')
 const aiAnimated = require('../../../Images/trixie/trixieAi.gif')
@@ -67,13 +65,13 @@ class ProjectTrixie extends Component {
         <p>
           The image below shows the prototype in action, unlocking abilities and utilising them.
         </p>
-        <ImgAnim static={pcStatic} animated={pcAnimated} />
+        <ImgAnim static={pcStatic} animated={pcAnimated} caption='2D player controller demo' />
         <p>
           The controller was then imported into this project. By updating the animator, adding additional abilities,
           and adjusting the physics properties of the controller to fit the game, the player controller was ready
           to go. The image below shows this in action.
         </p>
-        <ImgAnim static={trixieStatic} animated={trixieAnimated} />
+        <ImgAnim static={trixieStatic} animated={trixieAnimated} caption='Player controller brought into Trixie' />
 
         <h4>AI System</h4>
         <p>
@@ -94,7 +92,7 @@ class ProjectTrixie extends Component {
           The enemy can see the target, but the trajectory calculation tells the enemy if it shoots, it will hit the platform, so the
           enemy needs to move closer to the target, around the platform.
         </p>
-        <ImgAnim static={aiImg} animated={aiAnimated} largeImage={true} hidePlay={true} />
+        <ImgAnim static={aiImg} animated={aiAnimated} largeImage={true} hidePlay={true} caption='GOAP AI system (click to play)' />
 
         <h4>Level Editor</h4>
         <p>
@@ -105,12 +103,11 @@ class ProjectTrixie extends Component {
           Simple effects such as parallax could be lined up in the editor by setting the appropriate values on groups of sprites
           and moving the main camera around.
         </p>
-        <ImgAnim static={parallaxStatic} animated={parallaxAnimated} />
+        <ImgAnim static={parallaxStatic} animated={parallaxAnimated} caption='Visualising parallax in the editor' />
         <p>
           Concepts such as sprite layers and sorting orders were made easier to visualise and manage by customising the editor window
           to ensure each sprite was assigned a layer, with reporting to show what had been missed. 
         </p>
-        <ImgAnim static={layerStatic} animated={layerAnimated} />
         <p>
           Environmental events were also made possible by providing prefabs that could be dragged into the scene.
           This involved customised editors to set the event type, characteristics such as spawning enemies or starting dialogue,
