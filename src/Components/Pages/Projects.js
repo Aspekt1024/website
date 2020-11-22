@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import GridItem from '../Grid/GridItem';
 
-const ctImg = require('../../Images/chaosTavern/chaostaverntitle.jpg')
+const ctImg = require('../../Images/innchanted/banner-logo.jpg')
 const trixieImg = require('../../Images/trixie/trixie1.png')
 const trixieImgAnimated = require('../../Images/trixie/trixie.gif')
 const cbStatic = require('../../Images/clumsyBat/cbtitlestatic.jpg')
@@ -18,8 +18,8 @@ class Projects extends Component {
       <div className='page'>
         <h1>Projects</h1>
         <div className='grid'>
-          <GridItem title='Chaos Tavern' image={ctImg} link='#/projects/chaostavern'>
-            A fun and frantic co-operative multiplayer game about running a fantasy tavern!
+          <GridItem title='Innchanted' image={ctImg} link='#/projects/innchanted'>
+            A fun and frantic co-operative multiplayer game about running a fantasy inn!
           </GridItem>
           <GridItem title='Trixie' image={trixieImg} animatedImage={trixieImgAnimated} link='#projects/trixie'>
             A 2D action adventure platformer

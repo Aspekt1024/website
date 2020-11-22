@@ -29,23 +29,22 @@ class About extends Component {
                   <td>
                     <p>
                       Hey, I'm Dan, a game programmer and engineer based in Melbourne, Australia.
-                      I develop games primarily in Unity, and also work as an Automation Engineer.
+                      I develop games in Unity, while working as an Automation Engineer.
                     </p>
                     <p>
-                      Video games and programming have been a pivotal part of who I am, and Game development
+                      Video games and programming are a pivotal part of who I am. Game development
                       combines all of the things I enjoy the most: maths, problem solving, creativity, language
-                      and music. The process of bringing all of these together in an elegant solution though programming
-                      is what I love doing.
+                      and music, and I love the process of bringing all of these together in an elegant solution though programming.
                     </p>
                     <p>
-                      I graduated at the University of Melbourne in 2012 with a Bachelor of Engineering and Arts.
-                      Since then, I have worked various roles at Telstra, primarily as a network engineer
-                      and programmer. I started programming games in 2016 with a focus on Unity development.
+                      I graduated at the University of Melbourne in 2011 with a Bachelor of Engineering and Arts, and have since
+                      worked in various roles at Telstra, primarily as a network engineer and programmer. I started programming games
+                      in 2016.
                     </p>
                     <p>
                       <strong>Skillset summary:</strong>
                       <ul>
-                        <li>Unity and C# - Core game systems, tools, and AI. See <a href='#/projects'>projects</a> for further details</li>
+                        <li>Unity and C# - Core game systems, editor tools, and AI (showcased in <a href='#/projects'>projects</a>)</li>
                         <li>CI/CD - Automated build pipelines</li>
                         <li>Infrastructure - AWS, Kubernetes</li>
                         <li>Authentication and communications security</li>
@@ -76,10 +75,9 @@ class About extends Component {
             <p>
               <strong>Game programming focus in Unity:</strong>
               <ul>
-                <li>A node-based graph editor to create AI behaviour, with runtime visibility</li>
+                <li>Responsive, robust and scalable AI systems that allow flexible control over AI actions and goals.</li>
+                <li>Custom editors to allow design flow and gameplay changes without the need to modify code.</li>
                 <li>Level editors to facilitate rapid level building and testing </li>
-                <li>A reusable 2D player controller for platformers</li>
-                <li>A resuable behavioural AI system allowing runtime customisation</li>
                 <li>Refactoring and scaling core game systems to enhance overall game control and maintainability</li>
               </ul>
             </p>
@@ -119,7 +117,7 @@ class About extends Component {
               Soon after, it was deployed as the national standard for the design team.
             </p>
             <p>
-              During the eight years at this company, I've also been involved with:
+              During my time at Telstra, I've also been involved with:
               <ul>
                 <li>
                   Process and training documentation for tools I developed, and for new
@@ -148,8 +146,8 @@ class About extends Component {
               relevant again. A few months later, I started development on my <a href='#/projects/clumsybat'>first mobile game</a> using
               Unity. This game was a big learning process for developing tools
               and editors within the game engine, as well as end to end development from concept to
-              play-testing and deployment. The latest project I have been working on
-              is <a href='#/projects/chaostavern'>Chaos Tavern</a> at Dragonbear Studios.
+              play-testing and deployment. Currently, I have been working as the lead programmer
+              on <a href='#/projects/innchanted'>Innchanted</a> at DragonBear Studios.
             </p>
           </AccordionItem>
           <AccordionItem title='Why I Love Game Development' icon={faHeart} hidden={true}>
@@ -190,10 +188,10 @@ class About extends Component {
                       When I'm not coding, I'm likely doing one of the following:
                     </p>
                     <ul>
-                      <li>Playing music</li>
-                      <li>Training in aerials</li>
-                      <li>Learning German</li>
+                      <li>Playing board games</li>
+                      <li>Playing Dungeons and Dragons</li>
                       <li>Trying out a new video game</li>
+                      <li>Playing music</li>
                     </ul>
                     <p>
                       I've also dabbled in 3D modelling for fun (this guitar is something I modeled in Blender 3D), and I have to say it's changed the way I look at any animated film, forever.
@@ -220,7 +218,7 @@ class About extends Component {
               <li>Baldur's Gate</li>
               <li>Ori and the Blind Forest</li>
               <li>Final Fantasy VII</li>
-              <li>Dark Souls</li>
+              <li>Star Craft II</li>
             </ul>
           </AccordionItem>
           <AccordionItem title='Contact' icon={faSnowman}>

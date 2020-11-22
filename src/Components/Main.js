@@ -8,7 +8,7 @@ import NotFound from './Pages/NotFound';
 import Projects from './Pages/Projects';
 import ProjectClumsy from './Pages/Projects/ProjectClumsy';
 import ProjectTrixie from './Pages/Projects/ProjectTrixie';
-import ProjectChaosTavern from './Pages/Projects/ProjectChaosTavern';
+import ProjectInnchanted from './Pages/Projects/ProjectInnchanted';
 import ProjectLA95 from './Pages/Projects/ProjectLA95';
 import ProjectMMC from './Pages/Projects/ProjectMMC';
 import Prototypes from './Pages/Projects/Prototypes';
@@ -30,7 +30,7 @@ class Main extends Component {
             <Route path='/contact' component={Contact} />
             <Route path='/projects/clumsybat' component={ProjectClumsy} />
             <Route path='/projects/trixie' component={ProjectTrixie} />
-            <Route path='/projects/chaostavern' component={ProjectChaosTavern} />
+            <Route path='/projects/innchanted' component={ProjectInnchanted} />
             <Route path='/projects/gamejams' component={ProjectGameJam} />
             <Route path='/projects/la95' component={ProjectLA95} />
             <Route path='/projects/mmc' component={ProjectMMC} />

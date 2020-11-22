@@ -110,6 +110,15 @@ code {
   padding: 0px;
 }
 
+.youtube-vid2 {
+  display: block;
+
+  margin: 10px auto;
+  border-radius: 10px;
+
+  max-width: 80vw;
+}
+
 img, .large-image {
   width: 90%;
 }
@@ -122,5 +131,8 @@ img {
 
   margin: 10px auto;
   padding: 0px;
+}
 
+.splash-image {
+  border: 1px solid black;
 }
